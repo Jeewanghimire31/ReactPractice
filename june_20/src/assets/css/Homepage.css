@@ -1,0 +1,10 @@
+.homepage {
+  color: yellow;
+}
+
+.homepage_section .btn {
+  background-color: pink;
+}
+.homepage_section p {
+  color: blueviolet;
+}

@@ -1,0 +1,10 @@
+@use"Variables";
+p {
+    text-align: center;
+    // text-decoration: none;
+    color: red;
+}
+
+.btn_About{
+    color:Variables.$primary-color;
+}

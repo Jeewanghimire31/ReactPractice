@@ -1,0 +1,14 @@
+@use"Variables";
+.homepage{
+    color:Variables.$primary-color;
+}
+.homepage_section{
+
+    .btn{
+        background-color: pink;
+    }
+    
+    p{
+        color:blueviolet;
+    }
+}
