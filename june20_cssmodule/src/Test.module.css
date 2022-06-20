@@ -1,0 +1,9 @@
+.heading{
+    background-color: rgb(109, 109, 92);
+}
+
+.btn_test{
+    border: 1px solid  red;
+    border-radius: 20px;
+    font-size: 20px;
+}
