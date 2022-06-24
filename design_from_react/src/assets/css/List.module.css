@@ -1,0 +1,21 @@
+.content p:first-child{
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+.content ul li{
+    list-style: none;
+}
+
+.content ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.content ul li a:hover{
+    text-decoration: none;
+    border-bottom: 1px solid red ;
+}
+

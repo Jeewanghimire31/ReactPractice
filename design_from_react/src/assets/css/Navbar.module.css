@@ -1,0 +1,39 @@
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    color: white;
+
+}
+
+.container h2{
+    font-size: 30px;
+    margin-left: 100px;
+    
+}
+.container ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+
+}
+
+.container ul li{
+    list-style: none;
+    padding: 10px;
+    margin:10px;
+}
+
+.container ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+.container ul li a:hover{
+    color:rgb(110, 236, 236)
+}
