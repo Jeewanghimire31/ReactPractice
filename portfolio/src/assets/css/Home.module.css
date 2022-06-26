@@ -1,7 +1,8 @@
-section {
+.containerBox {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   height: 88.729vh;
   /* width: 100%; */
 }
@@ -16,6 +17,7 @@ section {
 .container div:first-child {
   /* border: 1px solid red; */
   height: 30rem;
+  margin: 2rem;
 }
 
 .container div p:first-child {
@@ -23,7 +25,7 @@ section {
   font-weight: 700;
   line-height: 2.4rem;
   /* color: rgb(56, 56, 56); */
-  color:var(--primaryColor);
+  color: var(--primaryColor);
 }
 
 .container div p:nth-child(2) {
@@ -51,56 +53,47 @@ section {
 .container div:first-child a {
   /* border: 1px solid red; */
   line-height: 5rem;
-  margin: .5rem;
+  margin: 0.5rem;
   text-decoration: none;
   font-size: 2rem;
 }
 
 .container div:nth-child(2) {
-  border: .1rem solid wheat;
   background-color: wheat;
   padding: 4rem;
   border-radius: 2rem;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: 2.5rem;
 }
 
-
-@media screen and (max-width: 991px){
-  
-  .section{
+@media screen and (max-width: 991px) {
+  .containerBox{
     width: 100%;
     height: 50vh;
+    font-size: 55%;
   }
-  
-  
-  .container{
-    flex-direction:column;
+
+  .container {
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     width: 100%;
-    font-size: 55%;
-    
   }
-
-  .container div:first-child{
-    margin-bottom: 50px;
+  .container div:first-child {
+    margin-bottom: 5rem;
   }
-
-
+  
 }
 
 @media screen and (max-width: 767px) {
- .container {
-    flex-direction:column;
+  .container {
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* flex-wrap: wrap ; */
+    flex-wrap: wrap ;
     width: 100%;
-    font-size: 45%;
+    
   }
 }
-
-
-

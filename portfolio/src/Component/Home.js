@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const Home = () => {
   return (
-    <section>
+    <section className={Styles.containerBox}>
       <div className={Styles.container}>
         <div>
           <p>Hello I'm</p>

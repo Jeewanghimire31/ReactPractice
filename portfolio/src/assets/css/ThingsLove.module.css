@@ -1,0 +1,32 @@
+.ContainerBox h1{
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    font-size: 50px;
+    color: var(--primaryColor);
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 991px) {
+
+    .ContainerBox h1{
+        margin-top: 10rem;
+        text-align: center;
+    }
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+  }
+}
+
+
+
+
