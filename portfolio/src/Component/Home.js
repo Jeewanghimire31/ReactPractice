@@ -1,0 +1,41 @@
+import React from "react";
+import Styles from "../assets/css/Home.module.css";
+import Button from "./Button";
+
+const Home = () => {
+  return (
+    <section>
+      <div className={Styles.container}>
+        <div>
+          <p>Hello I'm</p>
+          <p>JEEWAN GHIMIRE</p>
+          <p>CREATIVE FRONT-END WEB DEVELOPER</p>
+          <Button type="primary" content="Hire Me" />
+          <div>
+            <a href="#">+FACEBOOK</a>
+            <a href="#">+TWITTER</a>
+            <a href="#">+LINKEDIN</a>
+          </div>
+        </div>
+
+        <div>
+          <pre>
+            1&nbsp;&nbsp;class = <b>person</b>&#123;
+          </pre>
+          <pre>2&nbsp;&nbsp;&nbsp;constructor()&#123;</pre>
+          <pre>
+            3&nbsp;&nbsp;&nbsp;&nbsp;this.name = <b>"JEEWAN GHIMIRE";</b>
+          </pre>
+          <pre>
+            4&nbsp;&nbsp;&nbsp;&nbsp;this.traits=[<b>"DEV"</b>]
+          </pre>
+          <pre>5&nbsp;&nbsp;&nbsp;this.age=new.Date().getFullYear-1998</pre>
+          <pre>6&nbsp;&nbsp;&#125;</pre>
+          <pre>7&nbsp;&#125;</pre>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Home;
