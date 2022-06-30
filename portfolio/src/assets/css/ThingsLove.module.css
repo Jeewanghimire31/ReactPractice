@@ -1,32 +1,31 @@
-.ContainerBox h1{
-    text-align: center;
-    margin-bottom: 40px;
-    padding-bottom: 40px;
-    font-size: 50px;
-    color: var(--primaryColor);
+.ContainerBox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 5rem;
 }
 
+.ContainerBox h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  padding-bottom: 4rem;
+  font-size: 5rem;
+  color: var(--primaryColor);
+}
 
 .container {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 @media screen and (max-width: 991px) {
-
-    .ContainerBox h1{
-        margin-top: 10rem;
-        text-align: center;
-    }
+  .ContainerBox h1 {
+    margin-top: 32rem;
+    text-align: center;
+  }
   .container {
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
   }
 }
-
-
-
-

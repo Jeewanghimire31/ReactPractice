@@ -1,6 +1,7 @@
 import React from "react";
 import Styles from "../assets/css/Home.module.css";
 import Button from "./Button";
+import { FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
 
 const Home = () => {
   return (
@@ -12,9 +13,9 @@ const Home = () => {
           <p>CREATIVE FRONT-END WEB DEVELOPER</p>
           <Button type="primary" content="Hire Me" />
           <div>
-            <a href="#">+FACEBOOK</a>
-            <a href="#">+TWITTER</a>
-            <a href="#">+LINKEDIN</a>
+            <a href="#"><FaTwitter/></a>
+            <a href="#"><FaGithub/></a>
+            <a href="#"><FaLinkedinIn/></a>
           </div>
         </div>
 

@@ -24,6 +24,13 @@
   /* text-align: center; */
 }
 
+
+.icon{
+  font-size: 7rem;
+  padding-top: 2rem;
+  text-align: center;
+}
+
 .container p:last-child {
   /* border: 1px solid red; */
   font-size: 1.8rem;
@@ -46,3 +53,9 @@
     align-items: center;
   }
 }
+
+
+
+
+
+

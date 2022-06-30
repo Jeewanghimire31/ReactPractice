@@ -52,10 +52,12 @@
 
 .container div:first-child a {
   /* border: 1px solid red; */
+  color: var(--primaryColor);
   line-height: 5rem;
+  padding: 2rem;
   margin: 0.5rem;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .container div:nth-child(2) {

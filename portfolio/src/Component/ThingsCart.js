@@ -1,5 +1,6 @@
 import React, { Children } from "react";
 import Styles from "../assets/css/ThingsCart.module.css";
+// import { IconName } from "react-icons/fa";
 
 const ThingsCart = (props) => {
   const { logo, title, children } = props;
@@ -7,7 +8,10 @@ const ThingsCart = (props) => {
   // if()
   return (
     <div className={Styles.container}>
-      <p>{logo}</p>
+      <div className={Styles.icon}>
+
+      {logo}
+      </div>
 
       <h5>{title}</h5>
 
