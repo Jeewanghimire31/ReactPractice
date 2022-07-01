@@ -1,0 +1,25 @@
+.containerBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.containerBox h1 {
+  text-align: center;
+  font-size: 5rem;
+  color: var(--primaryColor);
+}
+
+.container{
+    display: flex;
+    padding: 5rem 0rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.icon{
+  font-size: 7rem;
+  margin: 3rem;
+}
+
