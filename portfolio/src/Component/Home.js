@@ -2,6 +2,7 @@ import React from "react";
 import Styles from "../assets/css/Home.module.css";
 import Button from "./Button";
 import { FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
+import Social from "./Social";
 
 const Home = () => {
   return (
@@ -10,12 +11,15 @@ const Home = () => {
         <div>
           <p>Hello I'm</p>
           <p>JEEWAN GHIMIRE</p>
-          <p>CREATIVE FRONT-END WEB DEVELOPER</p>
+          <p>INTERACTIVE FRONT-END DEVELOPER.
+          </p>
+            <p>I BUILD THINGS FOR THE WEB.</p>
+          
           <Button type="primary" content="Hire Me" />
+
+          {/* social links */}
           <div>
-            <a href="#"><FaTwitter/></a>
-            <a href="#"><FaGithub/></a>
-            <a href="#"><FaLinkedinIn/></a>
+            <Social color = "blue"/>
           </div>
         </div>
 

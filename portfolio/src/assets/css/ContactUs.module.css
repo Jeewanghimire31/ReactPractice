@@ -1,0 +1,80 @@
+.contactBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.contactBox h1 {
+  text-align: center;
+  font-size: 5rem;
+  color: var(--primaryColor);
+}
+
+.container {
+  /* border: 0.1rem solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 1rem;
+  /* margin: 1rem; */
+  width: 100%;
+  height: 85vh;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  /* border: 0.1rem solid green; */
+  width: 50%;
+  height: 100%;
+  background-color: var(--backColor);
+  padding: 2rem;
+  border-radius: 1rem;
+  
+}
+
+.info {
+  font-size: 1.9rem;
+  font-weight: 400;
+}
+
+.inputField {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.message {
+  font-size: 2rem;
+  font-weight: 400;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  resize: none;
+}
+
+.field button {
+  background-color: var(--primaryColor);
+  color: white;
+  margin: 1.5rem;
+}
+
+.contact {
+  /* border: 0.1rem solid yellow; */
+  font-size: 2rem;
+  line-height: 3rem;
+  background-color: var(--primaryColor);
+  
+  color: white;
+  width: 30%;
+  height: 100%;
+  padding: 2rem 1rem;
+  margin-left: 1rem;
+  border-radius: 1rem;
+}
+
+.social{
+  margin: 2rem;
+}
+
+
