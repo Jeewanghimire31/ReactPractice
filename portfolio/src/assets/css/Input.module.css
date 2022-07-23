@@ -1,9 +1,15 @@
 .content {
   width: 100%;
-  font-size: 2rem;
+  font-size: 1.6rem;
   background: #ffffff;
   border-radius: 1rem;
-  padding: .5rem 1rem;
+  padding: 1rem 1rem;
+  margin: 1.5rem 0;
+  border: none;
+}
+
+.content:focus{
+  outline: none;
 }
 
 

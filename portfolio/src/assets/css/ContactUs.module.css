@@ -11,13 +11,16 @@
   color: var(--primaryColor);
 }
 
+.social a{
+  font-size: 2.2rem;
+  margin: 0 1rem;
+}
+
 .container {
-  /* border: 0.1rem solid red; */
   display: flex;
   justify-content: center;
   align-items: start;
   padding: 1rem;
-  /* margin: 1rem; */
   width: 100%;
   height: 85vh;
 }
@@ -25,7 +28,6 @@
 .field {
   display: flex;
   flex-direction: column;
-  /* border: 0.1rem solid green; */
   width: 50%;
   height: 100%;
   background-color: var(--backColor);
@@ -35,22 +37,31 @@
 }
 
 .info {
-  font-size: 1.9rem;
+  font-size: 1.6rem;
   font-weight: 400;
 }
 
 .inputField {
-  display: flex;
-  margin: 1rem 0;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  
 }
 
+
 .message {
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 400;
   width: 100%;
   padding: 1rem;
   border-radius: 1rem;
   resize: none;
+  border: none;
+}
+
+.message:focus{
+  outline: none;
+
 }
 
 .field button {
@@ -60,21 +71,63 @@
 }
 
 .contact {
-  /* border: 0.1rem solid yellow; */
-  font-size: 2rem;
-  line-height: 3rem;
+  font-size: 1.5rem;
   background-color: var(--primaryColor);
-  
   color: white;
-  width: 30%;
+  line-height: 4rem;
+  width: 40%;
   height: 100%;
-  padding: 2rem 1rem;
   margin-left: 1rem;
   border-radius: 1rem;
+  position: relative;
 }
 
-.social{
-  margin: 2rem;
+
+.details{
+  padding: 2rem 1rem;
+}
+
+
+.map{
+  position: absolute;
+  height: 275px;
+  width: 100%;
+  border: 0;
+  bottom: 0;
+}
+
+
+@media screen and (max-width: 991px){
+
+
+  .contactBox h1{
+    margin-bottom: 10rem;
+  }
+  .container{
+    flex-direction: column;
+
+  }
+
+  .field{
+    width: 100%;
+    height: 100%;
+  }
+
+  .contact{
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+  
+  .map{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    border: 0;
+    bottom: 0;
+    right: 0;
+    
+  }
 }
 
 

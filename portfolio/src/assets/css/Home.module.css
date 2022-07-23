@@ -14,11 +14,10 @@
   width: 100%;
 }
 
-.container div:first-child {
-  /* border: 1px solid red; */
-  /* height: 30rem; */
-  margin: 2rem;
+.home_container{
+  line-height: 2rem;
 }
+
 
 .container div p:first-child {
   font-size: 2rem;

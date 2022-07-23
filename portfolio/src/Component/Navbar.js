@@ -1,5 +1,6 @@
 import React from "react";
 import Styles from "../assets/css/Navbar.module.css";
+import Router from "../assets/Router/Router";
 import Button from "./Button";
 
 const Navbar = () => {
@@ -18,7 +19,6 @@ const Navbar = () => {
     <Button type="primary" content="Hire Me"/>
   </div>
   </div>
-  
   </>
 
 };

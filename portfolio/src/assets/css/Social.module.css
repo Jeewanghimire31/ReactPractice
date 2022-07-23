@@ -2,10 +2,10 @@
 .socialPrimary a{
   color: var(--primaryColor);
   line-height: 5rem;
-  padding: 1rem;
+  /* padding: 1rem; */
   text-decoration: none;
   font-size: 3rem;
-  margin: 2rem;
+  margin: 1rem;
 }
 
 

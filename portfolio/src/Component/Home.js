@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <section className={Styles.containerBox}>
       <div className={Styles.container}>
-        <div>
+        <div className={Styles.home_container}>
           <p>Hello I'm</p>
           <p>JEEWAN GHIMIRE</p>
           <p>INTERACTIVE FRONT-END DEVELOPER.

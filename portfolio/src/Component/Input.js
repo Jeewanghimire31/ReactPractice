@@ -2,7 +2,6 @@ import React from 'react';
 import Styles from "../assets/css/Input.module.css"
 
 const Input = (props) => {
-  const {type, value, placeholder} = props;
   
   return (
     <div>
