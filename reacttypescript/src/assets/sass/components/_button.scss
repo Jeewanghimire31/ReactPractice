@@ -1,0 +1,45 @@
+.button_section {
+    button {
+        padding: 0.4rem 1.8rem 0.4rem;
+        border-radius: 0.3rem;
+        text-transform: capitalize;
+        transition: 0.4s ease;
+    }
+
+    .primary_btn {
+        background: $primary-color;
+        color: white;
+        border: none;
+
+    }
+
+    .primary_outline_btn {
+        outline: 1px solid white;
+        background: transparent;
+        color: white;
+
+        &:hover {
+            background-color: white;
+                color: $primary-color;
+        }
+    }
+
+    .secondary_btn {
+        background: $secondary_color;
+        color: black;
+        border: none;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    .secondary_outline_btn {
+        outline: 1px solid $secondary_color;
+        background-color: transparent;
+        &:hover {
+            background-color: $primary-color;
+            color: white;
+        }
+    }
+}

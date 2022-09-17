@@ -1,6 +1,17 @@
 import React from "react";
 import LoggedIn from "./component/state/LoggedIn";
-import User from "./component/state/User"
+import User from "./component/state/User";
+
+import { Routes, Route } from "react-router-dom";
+
+ // Importing Main.scss file
+ import "./assets/sass/components/_all.scss";
+//  import "./assets/sass/main.scss";
+
+ // Importing css bootstrap
+import "bootstrap/dist/css/bootstrap.min.css";
+
+
 // import Button from "./component/button";
 // import Container from "./component/container";
 // import Input from "./component/input";
